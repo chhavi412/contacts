@@ -5,7 +5,7 @@ const ContactModel = require('./models/contacts')
 // const BlogModel = require('./models/blog')
 // const TagModel = require('./models/tag')
 
-const sequelize = new Sequelize('contacts', 'postgres', 'root', {
+const sequelize = new Sequelize('contacts', 'postgres', 'argusadmin', {
   host: 'localhost',
   dialect: 'postgres',
   
@@ -23,7 +23,6 @@ sequelize
 
 const Users = UserModel(sequelize, Sequelize)
 const Contacts=ContactModel(sequelize,Sequelize)
-// const Contacts=ContactModel
 
 // Contacts.belongsToMany(Contacts, { through: UserModel, unique: false })
 // Contact.belongsTo(Users);

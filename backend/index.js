@@ -9,7 +9,7 @@ const app = express()
 app.use(bodyParser.json())
 
 app.use(cors({
-    origin: ['http://localhost:8080', 'http://127.0.0.1:8080'],
+    origin: ['http://localhost:8081', 'http://127.0.0.1:8081'],
     credentials: true
 }));
 
