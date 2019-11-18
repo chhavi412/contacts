@@ -9,4 +9,4 @@ steps to run backend:
 step1: npm install
 step2: create database in pgadmin named contacts
 step3: change database credentials in sequelize.js
-step3: comment out the lines mentioned in sequelize.js to avoid recreation of tables
+step4: comment out the lines mentioned in sequelize.js to avoid recreation of tables
